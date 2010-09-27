@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="{% url submit %}" method="get" accept-charset="utf-8">
+    <h3>Report a corruption story</h3>
+    <p>- from press reputable sources </p>
+    <p>Past your Report URL below </p>
+    <input type="text" name="some_name" value="" style="width:90%">
+    <p><input type="submit" value="Continue &rarr;"></p>
+</form>
+
+
+<div>
+    <h2>Top 5 actors </h2>
+    <ol>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    </ol>
+</div>
+
+<div>
+    <h2>Top 5 incidents </h2>
+    <ol>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    </ol>
+</div>
+
+<div>
+    <h2>Top 5 Organisations </h2>
+    <ol>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    <li>Name</li>
+    </ol>
+</div>
+
+<div>
+    Meerkat features reports relating to corruption to the tune of <span style="font-weight: bold">R25,000,000</span> in total
+    <p>(NOTE: Should this be time-boxed in a simple way?)</p>
+</div> 
+
+<h2>Scavenger Hunt</h2> 
+<p>This week we need help collecting information about the Information  Scandal 
+ that happened 1978-79, involving BJ Vorster, Connie Mulder, Eschel Rhoodie 
+ and others. Join the hunt.</p> 
+
+<h2>From the Meerkat blog</h2> 
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+{% endblock %}
