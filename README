@@ -12,6 +12,29 @@ http://groups.google.co.uk/group/the-meerkat-project
 
 For the project blog go here. http://corruption-sa.posterous.com/
 
-Thanks for helping out.
+Thanks for helping out.	
+
+** STATUS so far ** - by Etienne
+
+The initial code I sent along is a bare-bones wireframe, it is meant 
+to start the ball rolling. We might build on it in a future version, 
+or we might throw it away. It does not matter. The idea is to have 
+something running that we can poke at and discuss. 
+In keeping with this idea there is no database model yet, or CouchDB 
+or whatever, this will come in time. 
+
+When using a non-relational database (like CouchDB) you still need 
+something to serve up the data as HTML pages, and act as your web 
+front-end. One of the ways of doind this is using a framework (liek 
+Django) to do it, or on the other extreme case to have all the html, 
+logic etc. to be in the CouchDB too. While this is conceptually 
+elegant (and cool!) I have no experience in doing this, so I have 
+chosen to do the wireframe stuff in Django as that is what I am most 
+experienced with. 
+
+This wireframe also does not have any prety CSS or design or whatnot, 
+that is not my forte, but hopefull other people can fork it from 
+Github and add some eye candy and ideas. 
+
 
 
